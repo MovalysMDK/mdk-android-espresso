@@ -49,8 +49,8 @@ allprojects {
         projectTargetCompatibility = JavaVersion.VERSION_1_7
 
         // library versions
-        supportTestEspressoVersion = "2.2"
-        supportTestRunnerVersion = "0.3"
+        supportTestEspressoVersion = "2.2.1"
+        supportTestRunnerVersion = "0.4"
 
         spoonClientVersion = "1.1.9"
     }
