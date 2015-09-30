@@ -69,7 +69,7 @@ public class OrientationChangeAction implements ViewAction {
             throw new OrientationChangeActionException("Could not change orientation");
         }
 
-        uiController.loopMainThreadForAtLeast(100);
+        uiController.loopMainThreadForAtLeast(1000);
     }
 
     /**
