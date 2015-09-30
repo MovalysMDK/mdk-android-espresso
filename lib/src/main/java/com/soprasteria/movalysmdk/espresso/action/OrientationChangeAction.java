@@ -68,6 +68,8 @@ public class OrientationChangeAction implements ViewAction {
         if (resumedActivities.isEmpty()) {
             throw new OrientationChangeActionException("Could not change orientation");
         }
+
+        uiController.loopMainThreadForAtLeast(100);
     }
 
     /**
