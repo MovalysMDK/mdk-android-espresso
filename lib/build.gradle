@@ -49,14 +49,6 @@ uploadArchives {
     }
 }
 
-sonarRunner {
-    sonarProperties {
-        properties["sonar.sources"] = android.sourceSets.main.java.srcDirs
-        properties["sonar.binaries"] = file("build/intermediates/classes/debug")
-        property "sonar.sourceEncoding", "UTF-8"
-    }
-}
-
 android.libraryVariants.all { variant ->
     def name = variant.buildType.name
 
