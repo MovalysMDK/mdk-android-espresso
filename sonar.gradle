@@ -5,7 +5,7 @@ subprojects {
         properties {
             properties["sonar.language"] = "java"
             properties["sonar.sources"] = android.sourceSets.main.java.srcDirs
-            properties["sonar.binaries"] = file("build/intermediates/classes/debug")
+            properties["sonar.java.binaries"] = file("build/intermediates/classes/debug")
             properties["sonar.sourceEncoding"] = "UTF-8"
 	}
     }
