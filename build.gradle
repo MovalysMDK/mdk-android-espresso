@@ -45,7 +45,7 @@ allprojects {
     }
 
     group = 'com.soprasteria.movalysmdk.espresso'
-    version = '1.0.1-RC1'
+    version = '1.0.1-SNAPSHOT'
 
     ext {
 
